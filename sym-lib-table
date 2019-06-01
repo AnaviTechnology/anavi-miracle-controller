@@ -1,4 +1,4 @@
 (sym_lib_table
   (lib (name anavi-miracle-controller-rescue)(type Legacy)(uri ${KIPRJMOD}/anavi-miracle-controller-rescue.lib)(options "")(descr ""))
-  (lib (name SN74AHCT125D)(type Legacy)(uri ${KIPRJMOD}/components/SN74AHCT125D.pretty/SN74AHCT125D.lib)(options "")(descr ""))
+  (lib (name SN74AHCT125D)(type Legacy)(uri ${KIPRJMOD}/components/SN74AHCT125D.lib)(options "")(descr ""))
 )
