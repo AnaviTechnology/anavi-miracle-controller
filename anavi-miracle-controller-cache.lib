@@ -1,31 +1,6 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector_Barrel_Jack_Switch
-#
-DEF Connector_Barrel_Jack_Switch J 0 20 Y N 1 F N
-F0 "J" 0 210 50 H V C CNN
-F1 "Connector_Barrel_Jack_Switch" 0 -200 50 H V C CNN
-F2 "" 50 -40 50 H I C CNN
-F3 "" 50 -40 50 H I C CNN
-$FPLIST
- BarrelJack*
-$ENDFPLIST
-DRAW
-A -130 100 25 901 -901 0 1 10 F -130 125 -130 75
-A -130 100 25 901 -901 0 1 10 N -130 125 -130 75
-S -200 150 200 -150 0 1 10 f
-S 145 125 -130 75 0 1 10 F
-P 2 0 1 10 50 -90 75 -65 N
-P 2 0 1 10 200 100 150 100 N
-P 4 0 1 10 200 0 50 0 50 -90 25 -65 N
-P 6 0 1 10 -150 -100 -100 -100 -50 -50 0 -100 100 -100 200 -100 N
-X ~ 1 300 100 100 L 50 50 1 1 P
-X ~ 2 300 -100 100 L 50 50 1 1 P
-X ~ 3 300 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Connector_Generic_Conn_01x04
 #
 DEF Connector_Generic_Conn_01x04 J 0 40 Y N 1 F N
@@ -146,6 +121,26 @@ X 2Y 6 700 400 200 L 40 40 0 0 O
 X GND 7 -700 -700 200 R 40 40 0 0 P
 X 3Y 8 700 300 200 L 40 40 0 0 O
 X 3A 9 -700 -400 200 R 40 40 0 0 I
+ENDDRAW
+ENDDEF
+#
+# anavi-light-controller-rescue_dc_jack
+#
+DEF anavi-light-controller-rescue_dc_jack J 0 0 Y N 1 F N
+F0 "J" 0 150 60 H V C CNN
+F1 "anavi-light-controller-rescue_dc_jack" 0 -150 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+A 115 -50 10 -899 899 0 1 0 N 115 -60 115 -40
+S -125 100 150 -100 0 1 0 N
+P 2 0 1 0 -50 0 -50 25 N
+P 4 0 1 0 -50 50 -65 25 -35 25 -50 50 F
+P 4 0 1 0 -50 50 -25 50 0 25 25 50 N
+P 4 0 1 0 115 -40 -50 -40 -50 -60 115 -60 N
+X 1 1 -150 0 100 R 35 27 1 1 P
+X 2 2 -150 50 100 R 35 27 1 1 P
+X 3 3 -150 -50 100 R 35 27 1 1 P
 ENDDRAW
 ENDDEF
 #

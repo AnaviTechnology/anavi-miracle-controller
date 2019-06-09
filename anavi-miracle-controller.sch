@@ -522,36 +522,20 @@ F 3 "" H 950 5600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Barrel_Jack_Switch J1
-U 1 1 5CF338A0
-P 7250 3150
-F 0 "J1" H 7305 3467 50  0000 C CNN
-F 1 "Barrel_Jack_Switch" H 7305 3376 50  0000 C CNN
-F 2 "w_conn_misc:dc_socket" H 7300 3110 50  0001 C CNN
-F 3 "~" H 7300 3110 50  0001 C CNN
-	1    7250 3150
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0106
 U 1 1 5CF33A2A
-P 7700 3400
-F 0 "#PWR0106" H 7700 3150 50  0001 C CNN
-F 1 "GND" H 7705 3227 50  0000 C CNN
-F 2 "" H 7700 3400 50  0001 C CNN
-F 3 "" H 7700 3400 50  0001 C CNN
-	1    7700 3400
+P 7700 3300
+F 0 "#PWR0106" H 7700 3050 50  0001 C CNN
+F 1 "GND" H 7705 3127 50  0000 C CNN
+F 2 "" H 7700 3300 50  0001 C CNN
+F 3 "" H 7700 3300 50  0001 C CNN
+	1    7700 3300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7550 3150 7700 3150
 Wire Wire Line
-	7700 3150 7700 3250
-Wire Wire Line
-	7550 3250 7700 3250
-Connection ~ 7700 3250
-Wire Wire Line
-	7700 3250 7700 3400
+	7700 3150 7700 3300
 $Comp
 L anavi-miracle-controller-rescue:C-anavi-thermometer-rescue-anavi-gas-detector-rescue C1
 U 1 1 5CF3A429
@@ -610,8 +594,6 @@ Wire Wire Line
 	9000 3800 9000 4550
 Wire Wire Line
 	7900 3800 7000 3800
-Wire Wire Line
-	7550 3050 8100 3050
 Wire Wire Line
 	8100 3050 8100 3650
 $Comp
@@ -808,4 +790,22 @@ Wire Wire Line
 	7600 4900 8150 4900
 Wire Wire Line
 	7600 4900 7600 4850
+$Comp
+L anavi-light-controller-rescue:dc_jack J1
+U 1 1 5CFECCD1
+P 7400 3100
+F 0 "J1" H 7394 2813 60  0000 C CNN
+F 1 "dc_jack" H 7394 2919 60  0000 C CNN
+F 2 "w_conn_misc:dc_socket" H 7400 3100 60  0001 C CNN
+F 3 "" H 7400 3100 60  0000 C CNN
+	1    7400 3100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7550 3050 8100 3050
+Wire Wire Line
+	7550 3100 7700 3100
+Wire Wire Line
+	7700 3100 7700 3150
+Connection ~ 7700 3150
 $EndSCHEMATC
