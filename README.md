@@ -9,7 +9,7 @@ ANAVI Miracle Controller is an open source hardware development board for contro
 * Slots for up to 3 plug and play I2C sensors for temperature, barometric pressure, humidity and light
 * UART (Universal asynchronous receiver/transmitter) pins for debugging
 
-Open source software for ANAVI Miracle Controller written as an Arduino sketch is also available at GitHub](https://github.com/AnaviTechnology/anavi-miracle-controller-sw).
+Open source software for ANAVI Miracle Controller written as an [Arduino sketch is also available at GitHub](https://github.com/AnaviTechnology/anavi-miracle-controller-sw).
 
 # License
 
