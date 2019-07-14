@@ -1,15 +1,15 @@
-# ANAVI Thermometer
+# ANAVI Miracle Controller
 
-ANAVI Thermometer is an open source hardware development board that acts like a WiFi smart thermometer. It features:
+ANAVI Miracle Controller is an open source hardware development board for controlling 2 12V or 5V addressable LED strips. It features:
 
 * ESP8266 WiFi microcontroller
-* DHT22 sensor for temperature and humidity
-* Terminal for waterproof DS18B20 1-Wire temperature sensor
+* Terminals for 2 12V or 5V addressable LED strips (WS2811, WS2812, TM1804, etc.)
+* Jumper to select 12V or 5V power input
 * Dedicated slot for I2C OLED display
 * Slots for up to 3 plug and play I2C sensors for temperature, barometric pressure, humidity and light
 * UART (Universal asynchronous receiver/transmitter) pins for debugging
 
-Open source software for ANAVI Thermometer written as an Arduino sketch is also available at GitHub](https://github.com/AnaviTechnology/anavi-thermometer-sw).
+Open source software for ANAVI Miracle Controller written as an Arduino sketch is also available at GitHub](https://github.com/AnaviTechnology/anavi-miracle-controller-sw).
 
 # License
 
